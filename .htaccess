@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^generate_login_token$ /generate_login_token.php [L]
+RewriteRule ^login$ /login.php [L]
+RewriteRule ^historique$ /historique.php [L]
+RewriteRule ^add_upload$ /add_upload.php [L]
+RewriteRule ^add_png_version$ /add_png_version.php [L]
+RewriteRule ^check_update$ /check_update.php [L]
